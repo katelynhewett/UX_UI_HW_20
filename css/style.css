@@ -1,0 +1,90 @@
+.customNav{
+    background-color: #E3E3E3;
+    padding: 20px 10px;
+}
+
+.nav-item{
+    color: black !important;
+}
+
+.navbar-brand{
+    color: #D15742 !important;
+    font-size: 48px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.jumbotron{
+    background-color: #3D4F66;
+}
+.display-4{
+    color: #FBFAF8;
+}
+.lead{
+    color: #FBFAF8;
+}
+
+.heroBackground{
+    background-image: url(../images/Top\ Jumbotron\ Photos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+}
+
+.contentSection{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.heading{
+    color: #3D4F66;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.originalHomepage{
+    width: 500px;
+}
+
+
+.sectionHeading{
+    background-color: #3D4F66;
+    text-align: center;
+    color: #FBFAF8;
+    padding: 50px 0px;
+    font-weight: bold;
+}
+
+.subheading{
+    margin-top: 50px;
+}
+
+.analysisContainer{
+    display: grid;
+    grid-template-areas: 
+    "affinity affinity"
+    "chart donut"
+}
+
+.affinity{
+    grid-area: affinity;
+    
+}
+
+.chart{
+    grid-area:chart;
+}
+
+.donut{
+    grid-area: donut;
+}
+.analysisContainer img{
+    width: 100%;
+}
