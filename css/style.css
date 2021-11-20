@@ -1,5 +1,5 @@
 .customNav{
-    background-color: #E3E3E3;
+    background-color: #FBFAF8;
     padding: 20px 10px;
 }
 
@@ -20,6 +20,9 @@
 .jumbotron{
     background-color: #3D4F66;
 }
+
+
+
 .display-4{
     color: #FBFAF8;
 }
@@ -27,8 +30,8 @@
     color: #FBFAF8;
 }
 
-.heroBackground{
-    background-image: url(../images/Top\ Jumbotron\ Photos.png);
+.oceanBackground{
+    background-image: url(../images/oceanBackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -38,10 +41,27 @@
     justify-content: center;
 }
 
+.missionStatementArea{
+    background-color: #3D4F66;
+    height: 50%;
+    align-self: center;
+    text-align: center;
+    padding: 20px;
+    
+   
+}
+
+.statement{
+    text-align: center;
+    
+}
+
 .contentSection{
+    margin: 50px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 
 .heading{
     color: #3D4F66;
@@ -49,18 +69,53 @@
     margin-top: 100px;
 }
 
-.originalHomepage{
-    width: 500px;
+.topMockup{
+    height: 700px;
 }
 
 
 .sectionHeading{
-    background-color: #3D4F66;
+    background-color: #988877;
     text-align: center;
     color: #FBFAF8;
     padding: 50px 0px;
     font-weight: bold;
 }
+
+
+.largeOceanBackground{
+    background-image: url(../images/largeOceanBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+
+}
+.heuristicEvaluationArea{
+    background-color: #F2F2F2 !important;
+
+}
+.heuristicEvaluation{
+    color: #050601;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .subheading{
     margin-top: 50px;
@@ -87,4 +142,45 @@
 }
 .analysisContainer img{
     width: 100%;
+}
+
+.myRole{
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+/* Text Styles CSS */
+header{
+    font-family:'Work Sans', arial, sans-serif;
+    font-size: 24px;
+    padding-top: 12px;
+}
+h1{
+    font-family: 'Forum','Times New Roman', serif;
+    font-size: 96px;
+}
+h2{
+    font-family: 'Forum','Times New Roman', serif;
+    font-size: 72px;
+}
+h3{
+    font-family: 'Forum','Times New Roman', serif;
+    font-size: 64px;
+}
+h4{
+    font-family: 'Forum','Times New Roman', serif;
+    font-size: 48px;
+}
+h5{
+    font-family: 'Forum','Times New Roman', serif;
+    font-size: 36px;
+}
+h6{
+    font-family:'Work Sans', arial, sans-serif;
+    font-size: 36px;
+}
+p{
+    font-family:'Work Sans', arial, sans-serif;
+    font-size: 18px;
 }
