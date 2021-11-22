@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light customNav">
@@ -56,7 +59,7 @@
     <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-12 columnText">
             <h3>Background</h3>
-            <p>Aeon for Ocean is a Minnesota-based non-profit that helps kids become advocates for the Ocean. Our projet’s goal was to redeign the Aeon for Ocean website to improve the user experince, such that users are successful based on the number of volunteer activities they join, time spent interacting with the educational content, and money raised via donations.  </p>
+            <p>Aeon for Ocean is a Minnesota-based non-profit that helps kids become advocates for the Ocean. Our project’s goal was to redeign the Aeon for Ocean website to improve the user experince, such that users are successful based on the number of volunteer activities they join, time spent interacting with the educational content, and money raised via donations.  </p>
             <h3>My Role</h3>
             <p> Through the University of Minnesota’s UX Bootcamp, I worked with a team of three other students as joint UX researchers and designers to complete a three-week, user-centered responsive redesign of Aeon for Ocean’s website. This timeline included qualitiative user research and two rounds of iterations with user testing to arrive at our final prototypes. </p>
             <h3>Problem Statement</h3>
@@ -73,90 +76,200 @@
 
   <h2 class="sectionHeading">Research</h2>
 
+<div class="container-fluid qualitativeResearchSection">
+  <div class="qualitativeResearchInfo">
+    <h4>Early Observations</h4><br>
+    <p>Early on, we completed a heuristic evaluation of the existing website, and found that the site struggled to show a clear purpose, featured a disorganized navigation system, and did not prioritize its child users despite having a large segment of its content targeted toward them. <br>
 
-  <div class="jumbotron jumbotron-fluid largeOceanBackground">
-    <div class="container heuristicEvaluationArea">
-      <div class="container statement">
-        <h3 class="display-4 heuristicEvaluation"> Early on, we completed a heuristic evaluation of the existing website, and found that the site struggled to show a clear purpose, featured a disorganized navigation system, and did not prioritize its child users despite having a large segment of its content targeted toward them. 
-         We also completed a competitor analysis to see how Aeon for Ocean’s website compared to other similar webites. We found that competitor sites featured clear missions and prioritized high-quality visual content and interactivity for children. 
-        </h3>
+    <p>We also completed a competitor analysis to see how Aeon for Ocean’s website compared to other similar webites. We found that competitor sites featured clear missions and prioritized high-quality visual content and interactivity for children. </p>
+      
+      </p>
+  </div>
+</div>    
+  </div>
+
+<div class="container researchInfo">
+  <div class="interviewInfo">
+    <p>Based on these initial observations, we interviewed 4 adults, and 3 children. Our goal was to  determine users’ habits and preferences for using educational websites such as Aeon for Ocean as well as learn more about parents’ decision-making processes when engaging with similar organizations and content. </p>
+    <p>We came away from the interview process with a few key insights:</p><br>
+    <ol> 
+      <li>Parents need their children's educational websites to provide concise content and set clear expectations for in-person activities, as they rely on these elements to determine the credibility of educational websites their kids visit.</li>
+      <li>Children are visual learners who need color, game, and video content to keep them engaged. As many become interested in the ocean through their interest in the creatures that live there, a focus on animals in the design and content will help draw them in, keep them excited about the site, and promote a desire to help preserve the ocean.</li>
+    </ol>
+  </div>
+</div>
+
+<div class="container personaArea">
+<div class="row">
+  <div class="col-lg-6 col-md-12 col-sm-12 parentPersonaArea">
+    <img class="parentPersona" src="images/parentPersona.png">
+  </div>
+  <div class="col-lg-6 col-md-12 col-sm-12 childPersonaArea">
+    <img class="childPersona" src="images/childPersona.png">
+  </div>
+</div>
+</div>
+</section>
+
+<h2 class="sectionHeading">Analysis</h2>
+
+<div class="container-fluid analysisArea"> 
+  <div class="analysisInfo">
+    <p>We used this information to construct and empathize with our personas: Jordan Steele, a mom looking for trustworthy educational websites to help encourage her child’s interest in the ocean, and her son, Noah who wants to learn more about ocean life and explore through play. </p> <br> <br>
+    <p class="makeItFun">“Make it concise and fun!”</p><br>
+    <p>Based on our personas’ goals, we decided to focus on several key features in order to best meet the parents’ need for trustworthiness and understanding the organization’s activities, as well as to make the site more engaging for children: </p>
+    <ol> 
+      <li>Upcoming Activities/Events Page (increase trust)</li>
+      <li>Prioritize Kids’ Content (increase interactivity) </li>
+      <li>Streamline the Navigation System (simplify finding information)</li>
+      <li>Clarify “Krill 2 Whale” section of website so users understand this is the primary program offered by the organization. </li><br><br>
+    </ol>
+    <p>Card sorting was essential to implementing these features- particularly feature 3. 
+
+      Restructuring the navigation meant combining overlapping topics and re-naming primary navigation titles, as well as moving activity info out of the “contact” section so that it could be more easily found and help increase trust.  
+      
+      Our final site map renamed the primary categories with short titles geared toward kids, and made the Krill2Whale program easier to find by calling it “Our Program” 
+      </p>
+  </div>
+</div>
+
+<div class="container-fluid cardSortingImages">
+  <img class="originalSitemap" src="images/originalSitemap.png">
+  <img class="cardsorting" src="images/cardsorting.png">
+  <img class="finalSitemap" src="images/finalSitemap.png">
+</div>
+
+<h2 class="sectionHeading">The Design</h2>
+
+<div class="container-fluid loFi">
+  <div class="loFiText">
+    <h5>Lo-Fi Iterations and Testing</h5><br><br>
+    <p>We created two lo-fi prototypes to test based on our new sitemap, each reflecting different organization of information on the homepage. </p>
+  </div>
+</div>
+
+<div class="container-fluid loFiPrototypeSection">
+  <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 prototypeA">
+          <img class="prototypeAImage" src="images/prototypeA.png">
+        </div>
+      
+        <div class="col-lg-6 col-md-6 col-sm-12 prototypeB">
+          <img class="prototypeBImage" src="images/prototypeB.png">
       </div>
-    </div>
   </div>
+</div>
 
 
 
 
 
 
-  <section class="researchContainer contentSection">
-  <h3 class="heading">Research Plan</h3>
-  
-  <h4 class="subHeading">Goals</h4>
-  <p>The purpose of our work was to find out what prompted parents and children to get involved with non-profit organizations such as Aeon for Ocean, and then to apply their user needs to our new design. Our overall goals were: </p>
-  <ul>
-    <li>Goal 1</li>
-    <li>Goal 1</li>
-    <li>Goal 1</li>
-  </ul>
-
-  <h4 class="subHeading">Research Methodology</h4>
-  <p>The purpose of our work was to find out what prompted parents and children to get involved with non-profit organizations such as Aeon for Ocean, and then to apply their user needs to our new design. Our overall goals were: </p>
-  <ul>
-    <li>User Interviews</li>
-    <li>Usability Sessions/li>
-    <li>Research Synthesis</li>
-  </ul>
-
-  <h4 class="subHeading">Analysis</h4>
-  <p>Here are the results from our interviews and synthesis of research.</p>
-
-  <div class="analysisContainer">
-    <div class="affinity">
-      <img src="images/originalSitemap.png">
-    </div>
-
-    <div class="chart">
-      <img src="images/originalSitemap.png">
-    </div>
-
-    <div class="donut">
-      <img src="images/originalSitemap.png">
-    </div>
-
+<div class="container-fluid iterations">
+  <div class="iterationsText">
+    <p>We tested users to see which layout provided the most clarity in terms of ability to understand the organization’s mission, find upcoming events, and have their child play a game. </p><br><br>
+    <p>User feedback led us to combine the prototypes so it included the following: </p>
+    <ol>
+      <li>A central Donate Button- this stood out best to users and increased credibility.</li>
+      <li>Linear Cards (versus grid)- users found information easier to see and read </li>
+      <li>Icon-Based Navigation- This was perceived as more child-friendly</li>
+    </ol>
+    <p> Based on our iterated lo-fi prototype for desktop, we created our mobile prototype as well.</p>
+    <p> We kept the same design as our iterated lo-fi, except we placed single cards vertically on mobile and exchanged the top navigation for a hamburger menu. </p>
   </div>
+</div>
 
-  
-  <h3> User Persona</h3>
-  <div class="userPersona">
-    <img src="images/originalSitemap.png">
+<div class="container-fluid midPrototypeSection">
+  <div class="row midFidelityPrototypes">
+      <div class="col-lg-7 col-md-12 col-sm-12 midDesktop">
+          <img class="midDesktopImage" src="images/combinedDesktopPrototype.png">
+        </div>
+      
+        <div class="col-lg-5 col-md-12 col-sm-12 midMobile">
+          <img class="midMobileImage" src="images/combinedMobilePrototype.png">
+      </div>
   </div>
+</div>
 
-</section>
 
-<h2 class="sectionHeading">Design and Testing</h2>
 
-<section class="researchContainer contentSection">
-  <h3>Lo-fi Flows and Wireframes</h3>
-  <h4>User Flow</h4>
-  <div class="userFlow">
-    <img src="images/originalSitemap.png">
+
+
+<div class="container-fluid styleGuideSection">
+  <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 styleGuideText">
+          <p>We used a mood board to generate ideas for our high-fi prototype and translated it into a style tile. We wanted to bring an exploratory, under-the-sea feeling for kids, while highlighting the organization’s impact for parent users. Our goal was to blend the scientific and playful, to appeal to children’s sense of whimsy and their parents desire for credibility.</p>
+        </div>
+      
+        <div class="col-lg-8 col-md-8 col-sm-12 styleGuideImage">
+          <img class="styleTile" src="images/styleTile.png">
+      </div>
   </div>
+</div>
+
+<h2 class="sectionHeading">Final Prototypes</h2>
+
+<div class="container-fluid finalPrototypeSection">
+  <div class="finalPrototypeText">
+    <p>We followed our initial user testing plan to re-test our desktop and mobile high-fi prototypes with users. We noticed a few key issues from this: </p><br><br>
+    <ol>
+      <li>Users still struggled to understand the “Our Program” section of the site </li>
+      <li>Event titles confused users on our “Attend an Event” page </li>
+      <li>Titles were not large enough on mobile.</li><br>
+    </ol>
+    <p>To correct for what we noticed in testing, we changed the event titles on our Attend an Event page. Instead of simply listing “Virtual Presentation” we focused on content- “Learn about Coral Reefs,” as users wanted to know content information (versus type of presentation.) We also enlarged the font sizes on mobile. 
+    </p>
+  </div>
+</div>
 
 
-  <div class="container-fluid myRole">
-    <h2>My Role</h2>
-    <p>Through the University of Minnesota’s UX Bootcamp, I worked with a team of three other students as joint UX researchers and designers to complete a three-week, user-centered responsive redesign of Aeon for Ocean’s website. This timeline included qualitiative user research and two rounds of iterations with user testing to arrive at our final prototypes.</p>
-  </div> 
+<div class="container-fluid finalPrototypeTitle">
+  <p class="finalPrototypeHeader">Final Prototypes</p>
+</div>
 
 
+<div class="container-fluid finalPrototypes">
+  <div class="row finalPrototypeImages">
+      <div class="col-lg-6 col-md-6 col-sm-12 finalDesktopImage">
+         <img class="finalDesktop" src="images/finalDesktopPrototype.png">
+        </div>
+      
+        <div class="col-lg-6 col-md-6 col-sm-12 finalMobileImage">
+          <img class="finalMobile" src="images/finalMobilePrototype.png">
+      </div>
+  </div>
+</div>
 
-</section>
+<h2 class="sectionHeading">Conclusion</h2>
 
+<div class="container-fluid conclusionSection">
+  <div class="conclusionText">
+    <p>
+      While we were not able to complete all of the changes we hoped for due to the timeline of this project, our team managed to create an experience on the Aeon for Ocean website that better helped users connect with and trust the organization. 
+      
+      As potential future next steps, we would love to collaborate with Aeon for Ocean more directly. Unfortunately, were were unable to reach them during the project timeline, and their input could help steer the direction we take next. 
+      
+      Additionally, due to our final user tests and lingering confusion over “Our Program” we would like to do further testing to see if combining the “Our Program” and “About Us” sections could assist users’ navigation. 
+      Consider combining “Our Program” and “About Us,” as in high-fi testing, some users still felt confused about this. 
+      
+      Finally, we would love to build out the donation page to help users understand how to contribute and where money goes- increasing trust for the organization as a whole.  
+      </p>
+  </div>
+</div>
 
+<div class="socialMedia">
+  <p class="sayHello">Here are some places you can say hello:</p>
+  <div class="socialLogoArea">
+    <img class="facebook" src="images/facebookLogo.png">
+    <img class="linkedIn" src="images/linkedInLogo.png">
+    <img class="instagram" src="images/instagramLogo.png">
+  </div>
+</div>
 
-
-
+<div class="footer">
+  <a class="logo" href="index.html">KH</a>
+  <p class="copywright">Copywright Katelyn Hewett 2020. All rights reserved. </p>
+</div>
 
 
 </body>

@@ -1,6 +1,6 @@
 .customNav{
     background-color: #FBFAF8;
-    padding: 20px 10px;
+    padding: 20px 20px;
 }
 
 .nav-item{
@@ -82,9 +82,8 @@
     font-weight: bold;
 }
 
-
-.largeOceanBackground{
-    background-image: url(../images/largeOceanBackground.png);
+.qualitativeResearchSection{
+    background-image: url(../images/oceanBackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -92,62 +91,276 @@
     height: calc(100vh);
     display: flex;
     justify-content: center;
-
-}
-.heuristicEvaluationArea{
-    background-color: #F2F2F2 !important;
-
-}
-.heuristicEvaluation{
-    color: #050601;
+    align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.subheading{
-    margin-top: 50px;
+.qualitativeResearchInfo{
+    background-color: #FBFAF8;
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
-.analysisContainer{
-    display: grid;
-    grid-template-areas: 
-    "affinity affinity"
-    "chart donut"
+.qualitativeResearchInfo h4{
+    text-align: center;
 }
 
-.affinity{
-    grid-area: affinity;
-    
+
+
+
+
+
+.personaArea{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.parentPersonaArea{
+    display: flex;
+    align-items: center;
 }
 
-.chart{
-    grid-area:chart;
+.childPersonaArea{
+    display: flex;
+    align-items: center;
 }
 
-.donut{
-    grid-area: donut;
-}
-.analysisContainer img{
+.parentPersona{
     width: 100%;
 }
 
-.myRole{
+.childPersona{
+    width: 100%;
+}
+
+.analysisArea{
+    background-color: #3D4F66;
+    width: 100%;
+    padding: 50px 150px;
+}
+
+.interviewInfo{
+    margin-top: 100px;
+    font-size: 24px;
+}
+
+.interviewInfo p{
+    font-size: 24px;
+}
+
+.analysisInfo{
+    font-size: 24px;
+    color: #FBFAF8;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.analysisInfo p{
+    font-size: 24px;
+}
+
+.makeItFun{
+    font-family:'La Belle Aurore', cursive;
+    font-size: 72px  !important;
     text-align: center;
-    padding-left: 400px;
-    padding-right: 400px;
+}
+
+.cardSortingImages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.originalSitemap{
+    width: 75%;
+}
+
+.cardsorting{
+    width: 75%;
+}
+
+.finalSitemap{
+    width: 75%;
+}
+
+.loFiText{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.loFiPrototypeSection{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #3D4F66;
+}
+
+.prototypeA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prototypeB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prototypeAImage{
+    width: 95%;
+
+}
+
+.prototypeBImage{
+    width: 95%;
+}
+.iterations{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    font-size: 24px;
+}
+
+.iterations p{
+    font-size: 24px;
+}
+
+.iterationsText{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.midPrototypeSection{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.midFidelityPrototypes{
+    display: flex;
+    justify-content: center;
+}
+
+.midDesktop{
+    display: flex;
+    justify-content: center;
+}
+
+.midMobile{
+    display: flex;
+    justify-content: center;
+}
+.midDesktopImage{
+    width: 50%;
+}
+.midMobileImage{
+    width: 50%;
+}
+
+.styleGuideSection{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    background-color: #3D4F66;
+    padding: 100px;
+}
+
+.styleTile{
+    width: 90%;
+}
+
+.styleGuideText{
+    color: #FBFAF8;
+}
+
+.styleGuideText p{
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px
+}
+
+.finalPrototypeSection{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 24px;
+}
+
+.finalPrototypeSection p{
+    font-size: 24px;
+}
+
+.finalPrototypeText{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.finalPrototypeHeader{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 72px;
+    text-align: center;
+}
+
+
+.finalDesktopImage{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.finalMobileImage{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.finalDesktop{
+    width: 75%;
+}
+
+.finalMobile{
+    width: 75%;
+}
+
+.conclusionSection{
+    background-color: #3D4F66;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.conclusionText{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 24px;
+    color: #FBFAF8;
+}
+
+.conclusionText p{
+    font-size: 24px;
+}
+
+.socialMedia{
+    display: flex;
+    background-color: #988877;
+    color: #FBFAF8;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    background-color: #FBFAF8;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    color: #D15742 !important;
+    font-size: 48px;
 }
 
 /* Text Styles CSS */
