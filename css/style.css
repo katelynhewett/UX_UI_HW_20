@@ -42,6 +42,8 @@
 }
 
 .missionStatementArea{
+    display: flex;
+    justify-content: center;
     background-color: #3D4F66;
     height: 50%;
     align-self: center;
@@ -52,6 +54,9 @@
 }
 
 .statement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     
 }
